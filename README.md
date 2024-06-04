@@ -20,6 +20,9 @@ The `Account` class has the following methods:
 - `transfer()`: Performs transfers between accounts.
 - `displayTransactions()`: Displays the account's transaction history.
 
+![3](https://github.com/jhihyawang/JAVA-Savings-Deposit-System/assets/157604262/482a4d75-a8a6-40da-8da4-45a1ba6e1d8f)
+
+
 ## CheckingAccount Class
 
 The `CheckingAccount` class inherits from the `Account` class and represents a checking account. It has additional data members and methods:
@@ -32,6 +35,9 @@ Data members:
 Methods:
 - `deposit()`: Performs a deposit and updates the transaction count.
 - `withdrawal()`: Performs a withdrawal and updates the transaction count.
+
+![2](https://github.com/jhihyawang/JAVA-Savings-Deposit-System/assets/157604262/4acad5db-bbd7-43ed-bf4f-d119dad9b831)
+
 
 ## SavingAccount Class
 
@@ -59,5 +65,7 @@ The `Bank` class has the following methods:
 - `deleteAccount()`: Searches for the account based on the inputted account number, deletes the corresponding account, withdraws the balance from the account, calculates interest, and deducts transaction fees.
 - `searchAccount()`: Searches for the account in the accounts ArrayList based on the inputted account number. If found, returns the account object; otherwise, returns null.
 - `accountTransaction()`: Performs the specified transaction type (deposit, withdrawal, transfer) based on the inputted account number and transaction details.
+
+![1](https://github.com/jhihyawang/JAVA-Savings-Deposit-System/assets/157604262/ed47505b-79c6-42b1-8cb1-9ea400a353f4)
 
 This system provides a basic framework for managing bank accounts, allowing users to perform various banking operations such as deposits, withdrawals, transfers, and viewing transaction history.
